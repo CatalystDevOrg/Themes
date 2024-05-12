@@ -1,0 +1,7 @@
+/* The colorscheme of Windows XP */
+
+:root {
+    --primary:  #245DDA ;
+    --secondary: #7dc343;
+    --foreground: white;
+}
