@@ -1,0 +1,7 @@
+/* The colorscheme used between v3.3.0 and v3.5.4 the transition to using the color indigo in v3.6.0 */
+
+:root {
+    --primary: #1f2937;
+    --secondary: #374151;
+    --foreground: white;
+}
