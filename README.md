@@ -14,20 +14,20 @@ It is recommended to put the following information in a comment at the top of th
 - Additional credits such as source of the colorscheme or inspiration
 # Recommended
 Below are the CSS variables that affect the colors of the UI
-`primary` - layer 1 color
-`secondary` - layer 2 color
-`tertiary` - layer 3 color
-`userchrome-btn-primary` - primary background color for a button within the userchrome
-`userchrome-btn-secondary` - secondary background color for a button in the userchrome **being hovered over**
-`button-primary` - primary background color for buttons **not in the userchrome**
-`button-secondary` - secondary background color for buttons **not in the userchrome**
-`button-tertiary` - tertiary background color for buttons **not in the userchrome**
+`primary` - layer 1 color \
+`secondary` - layer 2 color \
+`tertiary` - layer 3 color \
+`userchrome-btn-primary` - primary background color for a button within the userchrome \
+`userchrome-btn-secondary` - secondary background color for a button in the userchrome **being hovered over** \
+`button-primary` - primary background color for buttons **not in the userchrome** \
+`button-secondary` - secondary background color for buttons **not in the userchrome** \
+`button-tertiary` - tertiary background color for buttons **not in the userchrome** \
 `foreground` - the color of text and borders
 # Optional
-These are for more granual control of the IU
-`border-radius` - how round elements will be
-`tab-radius` - how round tabs will be
-`searchbar-radius` - how round the search bar will be
+These are for more granual control of the IU \
+`border-radius` - how round elements will be \
+`tab-radius` - how round tabs will be \
+`searchbar-radius` - how round the search bar will be \
 `moremenu-radius` - how round the more menu will be
 # More In-Depth Customization
 A theme file can modify styles outside the variables listed above. It isn't recommended to do this as it means your theme might break in newer versions of Catalyst. If you follow the specification, your theme shouldn't break as long as it's updated to comply with newer versions of the specification as they come out and older versions get dropped from Catalyst.
