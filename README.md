@@ -29,3 +29,5 @@ These are for more granual control of the IU
 `tab-radius` - how round tabs will be
 `searchbar-radius` - how round the search bar will be
 `moremenu-radius` - how round the more menu will be
+# More In-Depth Customization
+A theme file can modify styles outside the variables listed above. It isn't recommended to do this as it means your theme might break in newer versions of Catalyst. If you follow the specification, your theme shouldn't break as long as it's updated to comply with newer versions of the specification as they come out and older versions get dropped from Catalyst.
