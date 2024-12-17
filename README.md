@@ -13,7 +13,7 @@ It is recommended to put the following information in a comment at the top of th
 - What version of CTS the theme is supposed to comply with
 - Additional credits such as source of the colorscheme or inspiration
 # Recommended
-Below are the CSS variables that affect the colors of the UI
+Below are the CSS variables that affect the colors of the UI \
 `primary` - layer 1 color \
 `secondary` - layer 2 color \
 `tertiary` - layer 3 color \
