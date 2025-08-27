@@ -4,8 +4,8 @@ Official repository containing custom themes for Catalyst
 Create a [pull request](https://github.com/CatalystDevOrg/Themes/pulls) adding your theme's CSS file to the repository.
 > [!NOTE]
 > Make sure your theme is added as a **singular file** in the **root** of the repository
-# Catalyst Theme Specification v1
-These are the CSS variables to be set for a CTSv1 compatible theme
+# Catalyst Theme Specification v1.1
+These are the CSS variables to be set for a CTSv1.1 compatible theme
 # Header
 It is recommended to put the following information in a comment at the top of the CSS file
 - The name of the theme
@@ -17,6 +17,7 @@ Below are the CSS variables that affect the colors of the UI \
 `primary` - layer 1 color \
 `secondary` - layer 2 color \
 `tertiary` - layer 3 color \
+`userchrome-background-color` - background color of the userchrome \
 `userchrome-btn-primary` - primary background color for a button within the userchrome \
 `userchrome-btn-secondary` - secondary background color for a button in the userchrome **being hovered over** \
 `button-primary` - primary background color for buttons **not in the userchrome** \
@@ -24,10 +25,12 @@ Below are the CSS variables that affect the colors of the UI \
 `button-tertiary` - tertiary background color for buttons **not in the userchrome** \
 `foreground` - the color of text and borders
 # Optional
-These are for more granual control of the IU \
+These are for more granual control of the UI \
 `border-radius` - how round elements will be \
 `tab-radius` - how round tabs will be \
 `searchbar-radius` - how round the search bar will be \
-`moremenu-radius` - how round the more menu will be
+`moremenu-radius` - how round the more menu will be \
+`font-family` - set the font \
+`home-background` - background image/color of the new tab page
 # More In-Depth Customization
 A theme file can modify styles outside the variables listed above. It isn't recommended to do this as it means your theme might break in newer versions of Catalyst. If you follow the specification, your theme shouldn't break as long as it's updated to comply with newer versions of the specification as they come out and older versions get dropped from Catalyst.
