@@ -8,8 +8,11 @@
     --primary: #4c566a;
     --secondary: #434c5e;
     --tertiary: #3b4252;
+    --userchrome-background-color: var(--primary);
+    /* --userchrome-background: url('nord.jpg'); */
     --userchrome-btn-primary: var(--primary);
     --userchrome-btn-secondary: var(--secondary);
+    /* --home-background: url('nord.jpg'); */
     --button-primary: #88c0d0;
     --button-secondary: #81a1c1;
     --button-tertiary: #5e81ac;
