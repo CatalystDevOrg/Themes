@@ -1,0 +1,13 @@
+/* 
+`   Hatsune Miku Theme v1.0 by jdev082
+    Complies with CTS v1.1
+    Colors from https://www.color-hex.com/color-palette/19601
+*/
+
+:root {
+    --primary: #86cecb;
+    --secondary: #137a7f;
+    --tertiary: #e12885;
+    --userchrome-background: unset;
+    --foreground: #ffffff;
+}
